@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A54947B6BCFB06008661185 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6044CF1BB28FFD7A2CB493 /* CoreVideo.framework */; };
+		2CDCFBFF2BF143454BE76439 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FD1BF3736495D26D9687CB /* AVFoundation.framework */; };
 		472C7ECA1D07482400B8AB5B /* RatioLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 472C7EC91D07482400B8AB5B /* RatioLogo.png */; };
 		4732BEE11CFAA48E0021E4F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4732BEE01CFAA48E0021E4F4 /* AppDelegate.swift */; };
 		4732BEE31CFAA48E0021E4F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4732BEE21CFAA48E0021E4F4 /* ViewController.swift */; };
@@ -25,6 +27,13 @@
 		47A8FCAF1D4D7624004D412C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4732BEE21CFAA48E0021E4F4 /* ViewController.swift */; };
 		47A8FCB01D4D76A3004D412C /* JMPTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47916B951D4AA15100DA1116 /* JMPTimer.swift */; };
 		47D9E2FF1D826B9400CDB97E /* rlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D9E2FE1D826B9400CDB97E /* rlogo.png */; };
+		4C1E0CD39C44840AA7B9BC94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74845E725B14D70CC388A442 /* QuartzCore.framework */; };
+		5860041CE14D4D11D741AE99 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E70D404DBD87967D014729B /* CoreTelephony.framework */; };
+		D78EEFD91614FB51F6B3FBCD /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2556BBB503952588B477A211 /* BuddyBuildSDK.framework */; };
+		DF73E8DAFD4B348E556B7203 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A799C08C87AC4FFE1CB2DA9D /* CoreText.framework */; };
+		E05D0439E9101B1D46A4451D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1B45301D9AC0141C673C65 /* AssetsLibrary.framework */; };
+		EF419650E7096018E2AD2383 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CCEDED75F57F98D9E8F807 /* CoreMedia.framework */; };
+		F54A2F2BE7BA7C3845D30837 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96BF7EDD1A4D5771730A0DC /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A6044CF1BB28FFD7A2CB493 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0E70D404DBD87967D014729B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2556BBB503952588B477A211 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		472C7EC91D07482400B8AB5B /* RatioLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RatioLogo.png; sourceTree = "<group>"; };
 		4732BEDD1CFAA48E0021E4F4 /* Coffee Ratio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Ratio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4732BEE01CFAA48E0021E4F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +76,13 @@
 		47A8FCA71D4D75A9004D412C /* Coffee_RatioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_RatioTests.swift; sourceTree = "<group>"; };
 		47A8FCA91D4D75A9004D412C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47D9E2FE1D826B9400CDB97E /* rlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rlogo.png; sourceTree = "<group>"; };
+		53FD1BF3736495D26D9687CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		74845E725B14D70CC388A442 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9E1B45301D9AC0141C673C65 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A799C08C87AC4FFE1CB2DA9D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B96BF7EDD1A4D5771730A0DC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F4CCEDED75F57F98D9E8F807 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FB8FE61224CF216F1BD89CCC /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +90,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78EEFD91614FB51F6B3FBCD /* BuddyBuildSDK.framework in Frameworks */,
+				E05D0439E9101B1D46A4451D /* AssetsLibrary.framework in Frameworks */,
+				DF73E8DAFD4B348E556B7203 /* CoreText.framework in Frameworks */,
+				5860041CE14D4D11D741AE99 /* CoreTelephony.framework in Frameworks */,
+				F54A2F2BE7BA7C3845D30837 /* SystemConfiguration.framework in Frameworks */,
+				4C1E0CD39C44840AA7B9BC94 /* QuartzCore.framework in Frameworks */,
+				2CDCFBFF2BF143454BE76439 /* AVFoundation.framework in Frameworks */,
+				EF419650E7096018E2AD2383 /* CoreMedia.framework in Frameworks */,
+				2A54947B6BCFB06008661185 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +126,8 @@
 				47A8FC951D4D7068004D412C /* Coffee Ratio UITests */,
 				47A8FCA61D4D75A9004D412C /* Coffee RatioTests */,
 				4732BEDE1CFAA48E0021E4F4 /* Products */,
+				A2A3CECA450D2183A9882422 /* Frameworks */,
+				FB8FE61224CF216F1BD89CCC /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +192,22 @@
 				47A8FCA91D4D75A9004D412C /* Info.plist */,
 			);
 			path = "Coffee RatioTests";
+			sourceTree = "<group>";
+		};
+		A2A3CECA450D2183A9882422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2556BBB503952588B477A211 /* BuddyBuildSDK.framework */,
+				9E1B45301D9AC0141C673C65 /* AssetsLibrary.framework */,
+				A799C08C87AC4FFE1CB2DA9D /* CoreText.framework */,
+				0E70D404DBD87967D014729B /* CoreTelephony.framework */,
+				B96BF7EDD1A4D5771730A0DC /* SystemConfiguration.framework */,
+				74845E725B14D70CC388A442 /* QuartzCore.framework */,
+				53FD1BF3736495D26D9687CB /* AVFoundation.framework */,
+				F4CCEDED75F57F98D9E8F807 /* CoreMedia.framework */,
+				0A6044CF1BB28FFD7A2CB493 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,12 +529,17 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S3YZ5MJ96M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Coffee Ratio/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.buddybuild.Coffee-Ratio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -500,12 +551,17 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S3YZ5MJ96M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Coffee Ratio/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.buddybuild.Coffee-Ratio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
