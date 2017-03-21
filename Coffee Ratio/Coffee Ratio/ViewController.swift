@@ -86,6 +86,7 @@ class ViewController: UIViewController {
   }
   
   @IBAction func start(_ sender: AnyObject) {
+   [0][1]
     timer.start()
   }
   
