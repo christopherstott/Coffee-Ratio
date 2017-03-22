@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4E5A5F2123D982E101AE95AF571F0348FBFFE7A7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "42619467AFF6AA18B133FF3F51606403E514B141" : 9223372036854775807,
+    "4E5A5F2123D982E101AE95AF571F0348FBFFE7A7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BA22D3EA-0E3D-4038-8D9A-FB858EE799D3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "42619467AFF6AA18B133FF3F51606403E514B141" : "..",
+    "4E5A5F2123D982E101AE95AF571F0348FBFFE7A7" : "Coffee-Ratio\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Coffee Ratio",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Coffee Ratio\/Coffee Ratio.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:BuddyBuild\/BuddyBuildSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42619467AFF6AA18B133FF3F51606403E514B141"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:christopherstott\/Coffee-Ratio.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E5A5F2123D982E101AE95AF571F0348FBFFE7A7"
+    }
+  ]
+}
